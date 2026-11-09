@@ -1,0 +1,17 @@
+/* 4. 入力フィールド共通の装飾 */
+input[type="text"],
+select,
+textarea {
+    width: 100%;             /* 横幅いっぱいに広げる [3] */
+    padding: 12px;           /* 内側に余白を作ってクリックしやすく [7] */
+    border: 1px solid #ccc;  /* 消えた枠線を復活させる [6, 14] */
+    border-radius: 6px;      /* 角を丸くして柔らかい印象に [15] */
+    margin-bottom: 25px;     /* 次の項目との間に余白を作る [4] */
+    font-size: 16px;         /* 入力する文字の大きさ [8] */
+}
+
+/* テキストエリアの高さ指定 */
+textarea {
+    height: 150px;           /* 高さを固定して入力しやすくする [3] */
+}
+
